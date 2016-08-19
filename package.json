@@ -1,5 +1,5 @@
 {
-  "name": "wiki_cli",
+  "name": "wikiSearcher",
   "version": "0.0.1",
   "description": "search on wikipedia through cli",
   "main": "index.js",
@@ -15,8 +15,12 @@
   "bugs": {
     "url": "https://github.com/vardhman1996/wiki_cli/issues"
   },
+  "bin": {
+    "wikiSearcher": "./index.js"
+  },
   "homepage": "https://github.com/vardhman1996/wiki_cli#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "pino": "^2.8.3",
     "wikipedia-js": "0.0.6"
   }
